@@ -23,7 +23,7 @@ const update = {
 
 
 const deleta = {
-  params: yup.object({
+  params: yup.object({  
     id: yup.number().required()
   })
 }
